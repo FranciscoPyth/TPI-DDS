@@ -1,0 +1,10 @@
+.inicio-container {
+    background-image: url('./images/fondo_cine.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

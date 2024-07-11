@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Carpeta donde se desarrollan todas las WEB API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --testTimeout=100000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aa-sqlite": "^1.0.29",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
