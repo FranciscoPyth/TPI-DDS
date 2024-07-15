@@ -17,12 +17,12 @@ const urlServidor = "https://tpi-dds-utn-frc.onrender.com/"
 //const urlServidor = ""  
 
 
-const urlResourceSeriesJWT = urlServidor + "/api/seriesJWT";
-const urlResourcePeliculas = urlServidor + "/api/peliculas";
-const urlResourceSeries = urlServidor + "/api/series";
-const urlResourceDocumentales = urlServidor + "/api/documentales";
-const urlResourceCortos = urlServidor + "/api/cortos";
-const urlResourceGeneros = urlServidor + "/api/generos";
+const urlResourceSeriesJWT = urlServidor + "api/seriesJWT";
+const urlResourcePeliculas = urlServidor + "api/peliculas";
+const urlResourceSeries = urlServidor + "api/series";
+const urlResourceDocumentales = urlServidor + "api/documentales";
+const urlResourceCortos = urlServidor + "api/cortos";
+const urlResourceGeneros = urlServidor + "api/generos";
 
 
 export const config = {
