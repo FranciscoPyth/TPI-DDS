@@ -7,11 +7,15 @@ const cortosRouter = require("./routes/cortos");
 const documentalesRouter = require("./routes/documentales");
 const crearBase = require("./base-orm/sqlite-init-orm.js");
 const seguridadRouter = require("./routes/seguridad");
+const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
+
 
 // Configuración de la aplicación Express
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: FRONTEND_URL,
+}));
 app.use(seguridadRouter);
 app.use(generosRouter)
 app.use(peliculasRouter)
