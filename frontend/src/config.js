@@ -4,7 +4,7 @@ estandarizar un poco más el proceso y no tener que modificar cada archivo que c
 */
 
 // opcion 1 cuando se hacen pruebas locales
-const urlServidor = "http://localhost:4000"
+const urlServidor = process.env.PORT || "http://localhost:4000"
 
 
 // opcion 2 cuando se despliega el frontend en un servidor distinto al backend
